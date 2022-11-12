@@ -1,6 +1,13 @@
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 ## Getting Started
+Add Clerk env variables! Otherwise you'll get ambiguous errors related to `frontendApi`
+
+```
+NEXT_PUBLIC_CLERK_FRONTEND_API=
+CLERK_API_KEY=
+CLERK_JWT_KEY=
+```
 
 First, run the development server:
 
